@@ -24,7 +24,6 @@ const open = require("open");
 
     const isInStock = !!clearedDatas.find((e) => e.includes("3080"));
 
-    console.log(isInStock);
     if (isInStock) {
       await open("https://www.nvidia.com/fr-fr/shop/geforce/?page=1&limit=9&locale=fr-fr");
     } else {
@@ -32,5 +31,6 @@ const open = require("open");
     }
   } catch (error) {
     console.log("Eeeeeh, something bad happened... Don't spam that much, you will have one :)");
+    console.log(error.response.statusText);
   }
 })();
