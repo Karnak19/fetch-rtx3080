@@ -1,7 +1,7 @@
 const axios = require("axios");
 const open = require("open");
 
-(async () => {
+async function main() {
   try {
     const { data } = await axios.get(
       "https://in-and-ru-store-api.uk-e1.cloudhub.io/DR/products/fr_fr/EUR/5394903200,5336531100,5256301100",
@@ -33,4 +33,6 @@ const open = require("open");
     console.log("Eeeeeh, something bad happened... Don't spam that much, you will have one :)");
     console.log(error.response.statusText);
   }
-})();
+}
+
+main();
