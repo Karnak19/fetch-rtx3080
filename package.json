@@ -1,6 +1,6 @@
 {
   "name": "fetch-rtx3080",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI to check Nvidia RTX 3080 Founders Edition availability",
   "main": "index.js",
   "scripts": {
