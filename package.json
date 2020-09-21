@@ -1,0 +1,26 @@
+{
+  "name": "fetch-rtx3080",
+  "version": "1.0.1",
+  "description": "CLI to check Nvidia RTX 3080 Founders Edition availability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fetch-rtx3080": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karnak19/fetchRTX3080.git"
+  },
+  "author": "Basile V. <basile64.v@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Karnak19/fetchRTX3080/issues"
+  },
+  "homepage": "https://github.com/Karnak19/fetchRTX3080#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "open": "^7.2.1"
+  }
+}
